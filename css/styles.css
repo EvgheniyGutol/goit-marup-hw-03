@@ -202,7 +202,66 @@ color: var(--comand-title-color);
     letter-spacing: 0.03em;
 
     color: var(--comand-job-color);
+
 }
+
+
+
+
+
+
+
+
+/*_______PORTFOLIO_______*/
+
+.portfolio-btn{
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+/* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--comand-title-color);
+
+  
+}
+.portfolio-btn:active{
+    background-color: var(--background-bottom);
+}
+
+
+
+/*_______CARD_______*/
+
+.card-name{
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+/* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
+
+    color: var(--comand-title-color);
+}
+
+
+.card-job{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+/* identical to box height, or 188% */
+
+    letter-spacing: 0.03em;
+
+    color: var(--comand-job-color);
+}
+
+
 
 
 /*_______FOOTER________*/
