@@ -35,6 +35,9 @@ button {
     cursor: pointer;
 }
 
+img {
+    display: block;
+}
 .conteiner {
     width: 1600px;
     padding-left: 15px;
@@ -231,10 +234,8 @@ body{
 
 /*_______STUDY_______*/
 
-.study {
-    padding-top: px;
-    padding-bottom: px;
-}
+
+
 .study-title{
 
     font-weight: 700;
@@ -242,9 +243,21 @@ body{
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 94px;
+    margin-bottom: 50px;
 
     color: var(--study-title-color);
 }
+.study-list{
+    display: flex;
+    margin-left: 215px;
+}
+.study-item:not(:last-child) {
+    margin-right: 30px;
+
+}
+
+
 
 
 
@@ -258,6 +271,9 @@ body{
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+
+    margin-top: 188px;
+
 
 color: var(--comand-title-color);
 }
@@ -289,6 +305,14 @@ color: var(--comand-title-color);
 
 }
 
+.comand-list{
+    display: flex;
+    margin-left: 215px;
+    margin-top: 50px;
+}
+.comand-item:not(:last-child){
+    margin-right: 30px;
+}
 
 
 
@@ -343,16 +367,21 @@ color: var(--comand-title-color);
     letter-spacing: 0.03em;
 
     color: var(--comand-job-color);
-}
+     margin-bottom: 184px;
+    }
 
 
 
 
 /*_______FOOTER________*/
 
-.footer{
-    background-color:#2F303A
+
+.footer-conteiner{
+    background-color:  #2F303A;
+margin-top: 94px;
+height: 252px;
 }
+
 
 .footer-logo{
 
@@ -365,6 +394,8 @@ color: var(--comand-title-color);
 
     letter-spacing: 0.03em;
 
+
+padding-left: 215px;
     color: var(--first-logo-color);
 }
 
@@ -394,5 +425,12 @@ color: var(--comand-title-color);
 
     letter-spacing: 0.03em;
 
+
     color: var(--footer-tel-color);
+}
+
+
+.footer-item{
+    padding-left: 215px;
+    padding-bottom: 9px;
 }
