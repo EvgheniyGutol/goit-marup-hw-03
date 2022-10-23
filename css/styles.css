@@ -22,7 +22,26 @@
 
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
 
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.conteiner {
+    width: 1600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    
+}
 body{
     font-family: "Roboto" sans-serif;
 }
@@ -61,6 +80,7 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    
 
     color: var(--header-title-color);
 }
@@ -76,16 +96,53 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
+    margin-right: 50px;
      color: var(--header-tel-color);
 
 }
+.header-tel:last-child {
+    margin-right: 0px;
+}
 
+.header-list {
+    display: flex;
+}
 
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-conteiner {
+    display: flex;
+    align-items: center;
+}
+
+.header-connect {
+    margin-left: auto;
+
+}
+
+.header-logo {
+    margin-right: 90px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-left: 215px;
+}
+.header-item {
+    margin-right: 50px;
+}
+
+.header-item:last-child{
+    margin-right: 0px;
+}
 
 /*_______HERO_______*/
 
+
 .hero-right{
+   height: 600px;
+    
 
     background-color:#2F303A
 }
@@ -100,6 +157,10 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    padding-top: 200px;
+    padding-left: 452px;
+    padding-right: 452px;
+    margin-bottom: 40px;
 
     color: var(--hero-title-color);
 }
@@ -111,20 +172,40 @@ body{
     font-size: 16px;
     line-height: 1.87;
 /* identical to box height, or 188% */
-    display: flex;
-    align-items: center;
-    text-align: center;
+   
     letter-spacing: 0.06em;
+   
+    background: #3a688d;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-left: 700px;
+
+    
+
 
     color: var(--hero-buttom-color);
 }
+
 .hero-btn:active{
     background-color: var(--background-bottom);
 }
 
 
 /*_______ABOUT_______*/
+.about-conteiner{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    padding-left: 215px;
+    padding-right: 215px;
+    column-count: 4;
+    text-align: center;
+  
 
+}
+.about-item{
+    text-align: left;
+    padding-right: 30px;
+}
 .about-title{
     font-weight: 700;
     font-size: 14px;
@@ -150,7 +231,10 @@ body{
 
 /*_______STUDY_______*/
 
-
+.study {
+    padding-top: px;
+    padding-bottom: px;
+}
 .study-title{
 
     font-weight: 700;
